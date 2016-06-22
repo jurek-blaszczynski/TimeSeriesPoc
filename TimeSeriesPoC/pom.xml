@@ -22,16 +22,38 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-    	<groupId>TimeSeries</groupId>
-    	<artifactId>TimeSeries</artifactId>
-    	<version>1.0.0</version>
-    	<scope>system</scope>
-    	<systemPath>f:\Projects\TimeSeries\timeseries.jar</systemPath>
-    </dependency>
-    <dependency>
     	<groupId>nz.ac.waikato.cms.weka</groupId>
     	<artifactId>weka-stable</artifactId>
     	<version>3.6.11</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>3.3.2</version>
+    </dependency>
+    <dependency>
+    	<groupId>joda-time</groupId>
+    	<artifactId>joda-time</artifactId>
+    	<version>2.3</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.jfree</groupId>
+    	<artifactId>jfreechart</artifactId>
+    	<version>1.0.17</version>
+    </dependency>
+    <dependency>
+    	<groupId>JMotif</groupId>
+    	<artifactId>JMotif</artifactId>
+    	<version>8.x.311</version>
+    	<scope>system</scope>
+    	<systemPath>${basedir}/contrib/jmotif/jmotif.lib.jar</systemPath>
+    </dependency>
+    <dependency>
+    	<groupId>TimeSeries</groupId>
+    	<artifactId>TimeSeries</artifactId>
+    	<scope>system</scope>
+    	<version>1.0.0</version>
+    	<systemPath>${basedir}/contrib/timeseries.jar</systemPath>
     </dependency>
   </dependencies>
 </project>
